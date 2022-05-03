@@ -1,0 +1,44 @@
+[
+    {
+      "ID": 1,
+      "Name": "Birla Houses",
+      "Type": "House",
+      "Price": 2800000,
+      "ImgName": "House1.jpg"
+    },
+    {
+      "ID": 2,
+      "Name": "Birla Houses",
+      "Type": "House",
+      "Price": 2800000,
+      "ImgName": "House2.jpg"
+    },
+    {
+      "ID": 3,
+      "Name": "Kamla Houses",
+      "Type": "House",
+      "Price": 400000,
+      "ImgName": "House3.jpg"
+    },
+    {
+      "ID": 4,
+      "Name": "Kamla Houses",
+      "Type": "House",
+      "Price": 400000,
+      "ImgName": "House4.jpg"
+    },
+    {
+      "ID": 5,
+      "Name": "Kamla Houses",
+      "Type": "House",
+      "Price": 400000,
+      "ImgName": "House5.jpg"
+    },
+    {
+       "ID": 6,
+      "Name": "Kamla Houses",
+      "Type": "House",
+      "Price": 400000,
+      "ImgName": "House6.jpg"
+    }
+  ]
