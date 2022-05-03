@@ -10,7 +10,7 @@ import { Iproperty } from '../propertycard/iproperty';
 export class PropertylistComponent implements OnInit {
   constructor(private PropertiesService56: PropertiesService) {}
 
-  properties: any;
+  properties: Iproperty[] = [];
   ngOnInit(): void {
     this.PropertiesService56.GetallProperties().subscribe(
       (data) => {

@@ -11,7 +11,7 @@ export class PropertycardComponent implements OnInit {
 
   ngOnInit(): void {}
 
-  @Input() PropertyItem: any;
+  @Input() PropertyItem:Iproperty={ID:0,Name:'',Type:'',Price:0,ImgName:''};
   // @Input() PropertyItem: Iproperty = {
   //   ID: 0,
   //   Name: '',
