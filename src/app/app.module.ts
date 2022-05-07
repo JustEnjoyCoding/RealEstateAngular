@@ -9,9 +9,13 @@ import { PropertycardComponent } from './propertycard/propertycard.component';
 import { PropertylistComponent } from './propertylist/propertylist.component';
 import { HttpClientModule } from '@angular/common/http';
 import { PropertiesService } from './HousingServices/properties.service';
+import { AddpropertyComponent } from './propertycard/addproperty/addproperty.component';
+import { PorpertydetailComponent } from './propertycard/porpertydetail/porpertydetail.component';
+import { BuylistComponent } from './propertylist/buylist/buylist.component';
+import { RentlistComponent } from './propertylist/rentlist/rentlist.component';
 
 @NgModule({
-  declarations: [AppComponent, PropertycardComponent, PropertylistComponent],
+  declarations: [AppComponent, PropertycardComponent, PropertylistComponent, AddpropertyComponent, PorpertydetailComponent, BuylistComponent, RentlistComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
