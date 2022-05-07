@@ -1,13 +1,15 @@
 <div class="card">
-<div class="card-img-wrapper">
-  <img class="card-img-top" src="assets/Images/{{PropertyItem.ImgName}}" alt="">
+  <div class="card-img-wrapper">
+    <img *ngIf="PropertyItem.ImgName" src="assets/Images/{{PropertyItem.ImgName}}" alt="">
+    <img *ngIf="!PropertyItem.ImgName" src="assets/Images/DefaultHome.jpg" alt="">
+
   </div>
   <ul class="list-inline text-center member-icon">
     <li class="list-inline-item">
-<button class="btn btn-primary" routerLink="/propertydeatil"> E </button>
+      <button class="btn btn-primary" routerLink="/propertydeatil/{{PropertyItem.ID}}"> E </button>
     </li>
     <li class="list-inline-item">
-<button class="btn btn-primary"> C </button>
+      <button class="btn btn-primary"> C </button>
     </li>
   </ul>
   <div class="card-body p-1">

@@ -5,13 +5,15 @@ import { BuylistComponent } from './propertylist/buylist/buylist.component';
 import { PropertylistComponent } from './propertylist/propertylist.component';
 import { RentlistComponent } from './propertylist/rentlist/rentlist.component';
 import { PorpertydetailComponent } from './propertycard/porpertydetail/porpertydetail.component';
+import { PagenotfoundComponent } from './propertycard/pagenotfound/pagenotfound.component';
 
 const routes: Routes = [
   { path: '', component: PropertylistComponent },
   { path: 'addproperty', component: AddpropertyComponent },
   { path: 'rentproperty', component: RentlistComponent },
   { path: 'buyproperty', component: BuylistComponent },
-  { path: 'propertydeatil', component: PorpertydetailComponent },
+  { path: 'propertydeatil/:id', component: PorpertydetailComponent },
+  { path: '**', component: PagenotfoundComponent },
 ];
 
 @NgModule({

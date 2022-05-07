@@ -4,41 +4,62 @@
       "Name": "Birla Houses",
       "Type": "House",
       "Price": 2800000,
-      "ImgName": "House1.jpg"
+      "ImgName": "House1.jpg",
+      "SaleRent":1
     },
     {
       "ID": 2,
       "Name": "Birla Houses",
       "Type": "House",
       "Price": 2800000,
-      "ImgName": "House2.jpg"
+      "ImgName": "House2.jpg",
+       "SaleRent":2
     },
     {
       "ID": 3,
       "Name": "Kamla Houses",
       "Type": "House",
       "Price": 400000,
-      "ImgName": "House3.jpg"
+      "ImgName": "House3.jpg",
+       "SaleRent":1
     },
     {
       "ID": 4,
       "Name": "Kamla Houses",
       "Type": "House",
       "Price": 400000,
-      "ImgName": "House4.jpg"
+      "ImgName": "House4.jpg",
+       "SaleRent":1
     },
     {
       "ID": 5,
       "Name": "Kamla Houses",
       "Type": "House",
       "Price": 400000,
-      "ImgName": "House5.jpg"
+      "ImgName": "House5.jpg",
+       "SaleRent":1
     },
     {
        "ID": 6,
       "Name": "Kamla Houses",
       "Type": "House",
       "Price": 400000,
-      "ImgName": "House6.jpg"
+      "ImgName": "House6.jpg",
+       "SaleRent":1
+    },
+      {
+       "ID": 7,
+      "Name": "jaya Houses",
+      "Type": "House",
+      "Price": 400000,
+      "ImgName": "",
+       "SaleRent":1
+    },
+       {
+       "ID": 8,
+      "Name": "Suresh Houses",
+      "Type": "House",
+      "Price": 400000,
+      "SaleRent":1
     }
   ]

@@ -13,9 +13,10 @@ import { AddpropertyComponent } from './propertycard/addproperty/addproperty.com
 import { PorpertydetailComponent } from './propertycard/porpertydetail/porpertydetail.component';
 import { BuylistComponent } from './propertylist/buylist/buylist.component';
 import { RentlistComponent } from './propertylist/rentlist/rentlist.component';
+import { PagenotfoundComponent } from './propertycard/pagenotfound/pagenotfound.component';
 
 @NgModule({
-  declarations: [AppComponent, PropertycardComponent, PropertylistComponent, AddpropertyComponent, PorpertydetailComponent, BuylistComponent, RentlistComponent],
+  declarations: [AppComponent, PropertycardComponent, PropertylistComponent, AddpropertyComponent, PorpertydetailComponent, BuylistComponent, RentlistComponent, PagenotfoundComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
