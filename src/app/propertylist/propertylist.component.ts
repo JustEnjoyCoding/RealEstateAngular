@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { PropertiesService } from '../HousingServices/properties.service';
 import { Iproperty } from '../propertycard/iproperty';
 
@@ -9,10 +9,10 @@ import { Iproperty } from '../propertycard/iproperty';
 })
 export class PropertylistComponent implements OnInit {
   constructor(private PropertiesService56: PropertiesService) {}
-
+  @Input() SaleRentlist: number = 0;
   properties: Iproperty[] = [];
   ngOnInit(): void {
-    this.PropertiesService56.GetallProperties().subscribe(
+    this.PropertiesService56.GetallProperties(this.SaleRentlist).subscribe(
       (data) => {
         this.properties = data;
       },
