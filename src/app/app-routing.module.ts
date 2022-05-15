@@ -6,6 +6,8 @@ import { PropertylistComponent } from './propertylist/propertylist.component';
 import { RentlistComponent } from './propertylist/rentlist/rentlist.component';
 import { PorpertydetailComponent } from './propertycard/porpertydetail/porpertydetail.component';
 import { PagenotfoundComponent } from './propertycard/pagenotfound/pagenotfound.component';
+import { UserloginComponent } from './userlogin/userlogin.component';
+import { UserregisterComponent } from './userregister/userregister.component';
 
 const routes: Routes = [
   { path: '', component: PropertylistComponent },
@@ -13,6 +15,8 @@ const routes: Routes = [
   { path: 'rentproperty', component: RentlistComponent },
   { path: 'buyproperty', component: BuylistComponent },
   { path: 'propertydeatil/:id', component: PorpertydetailComponent },
+  { path: 'user/login', component: UserloginComponent },
+  { path: 'user/register', component: UserregisterComponent },
   { path: '**', component: PagenotfoundComponent },
 ];
 

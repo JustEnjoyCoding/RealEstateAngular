@@ -14,15 +14,31 @@ import { PorpertydetailComponent } from './propertycard/porpertydetail/porpertyd
 import { BuylistComponent } from './propertylist/buylist/buylist.component';
 import { RentlistComponent } from './propertylist/rentlist/rentlist.component';
 import { PagenotfoundComponent } from './propertycard/pagenotfound/pagenotfound.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { UserloginComponent } from './userlogin/userlogin.component';
+import { UserregisterComponent } from './userregister/userregister.component';
 
 @NgModule({
-  declarations: [AppComponent, PropertycardComponent, PropertylistComponent, AddpropertyComponent, PorpertydetailComponent, BuylistComponent, RentlistComponent, PagenotfoundComponent],
+  declarations: [
+    AppComponent,
+    PropertycardComponent,
+    PropertylistComponent,
+    AddpropertyComponent,
+    PorpertydetailComponent,
+    BuylistComponent,
+    RentlistComponent,
+    PagenotfoundComponent,
+    UserloginComponent,
+    UserregisterComponent,
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgbModule,
     NavMenuModule,
     HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [PropertiesService],
   bootstrap: [AppComponent],
