@@ -17,6 +17,7 @@ import { PagenotfoundComponent } from './propertycard/pagenotfound/pagenotfound.
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { UserloginComponent } from './userlogin/userlogin.component';
 import { UserregisterComponent } from './userregister/userregister.component';
+import { UserServiceService } from './HousingServices/user-service.service';
 
 @NgModule({
   declarations: [
@@ -38,9 +39,9 @@ import { UserregisterComponent } from './userregister/userregister.component';
     NavMenuModule,
     HttpClientModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
   ],
-  providers: [PropertiesService],
+  providers: [PropertiesService, UserServiceService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
