@@ -74,7 +74,7 @@ export class UserregisterComponent implements OnInit {
       // localStorage.setItem('Users', JSON.stringify(this.User));
       this.UserService.addUsers(this.userData());
       this.RegistrationForm.reset();
-      //this.userSubmitted = false;
+      this.userSubmitted = false;
     }
   }
 

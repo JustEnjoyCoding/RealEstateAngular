@@ -3,13 +3,22 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-navbar',
   templateUrl: './navbar.component.html',
-  styleUrls: ['./navbar.component.css']
+  styleUrls: ['./navbar.component.css'],
 })
 export class NavbarComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
+  Loggedinuser: string;
+  ngOnInit(): void {}
 
-  ngOnInit(): void {
+  loggedin() {
+    this.Loggedinuser = localStorage.getItem('Token');
+    return this.Loggedinuser;
   }
+
+  onLogout() {
+    localStorage.removeItem('Token');
+  }
+
 
 }
